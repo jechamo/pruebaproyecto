@@ -16,6 +16,8 @@ public class Car implements Serializable, Comparable<Car> {
     private String name;
     private Double price;
 
+    private Double wheels;
+
     public Car() {
     }
 
